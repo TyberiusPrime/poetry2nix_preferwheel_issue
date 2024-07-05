@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tradesim"
+version = "0.1.0"
+description = ""
+authors = ["Greg Schwimer <schwim@bitrail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+"safetensors"=">=0.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+blah = "blah2.main:main"
